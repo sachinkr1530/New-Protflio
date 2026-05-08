@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 import SectionWrapper, { SectionTitle } from "./SectionWrapper";
 
 const stats = [
-  { value: 2, suffix: "+", label: "Years Experience" },
+  { value: 1, suffix: "+", label: "Years Experience" },
   { value: 10, suffix: "+", label: "Projects Built" },
   { value: 95, suffix: "%", label: "ML Model Accuracy" },
   { value: 35, suffix: "%", label: "Performance Gains" },

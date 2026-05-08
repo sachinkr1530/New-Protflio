@@ -22,6 +22,8 @@ const projects = [
       "MCQ practice system",
     ],
   },
+
+
   {
     title: "Disease Prediction",
     tagline: "Multiple Disease AI Platform",

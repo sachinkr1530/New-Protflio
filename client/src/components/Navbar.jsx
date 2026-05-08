@@ -56,7 +56,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 + i * 0.07 }}
                 onClick={() => scrollTo(link.href)}
-                className="font-mono text-sm text-muted hover:text-accent transition-colors duration-300 relative group"
+                className="font-mono text-sm text-white hover:text-accent transition-colors duration-300 relative group"
               >
                 <span className="text-accent/60 text-xs mr-1">0{i + 1}.</span>
                 {link.label}

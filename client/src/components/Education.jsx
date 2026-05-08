@@ -7,7 +7,7 @@ import SectionWrapper, { SectionTitle } from "./SectionWrapper";
 const education = [
   {
     degree: "MCA (Generative AI)",
-    institution: "SRM Institute of Science and Technology",
+    institution: "SRM Institute of Science and Technology, Ktr",
     score: "CGPA: 8.32",
     duration: "2024 – 2026",
     color: "#5b8ef0",
@@ -18,6 +18,14 @@ const education = [
     institution: "L.N.D College, Motihari",
     score: "75.80%",
     duration: "2021 – 2024",
+    color: "#7c5cfc",
+    highlight: false,
+  },
+   {
+    degree: "12th",
+    institution: "M.S.S.G College, Areraj",
+    score: "60.20%",
+    duration: "2020 – 2021",
     color: "#7c5cfc",
     highlight: false,
   },

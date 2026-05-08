@@ -135,8 +135,7 @@ export default function Hero() {
                 2000,
                 "Data Analyst",
                 2000,
-                "MCA Gen AI Student",
-                2000,
+                
               ]}
               wrapper="span"
               speed={50}

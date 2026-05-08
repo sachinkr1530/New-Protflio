@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { HiBriefcase } from "react-icons/hi";
 import SectionWrapper, { SectionTitle } from "./SectionWrapper";
@@ -9,13 +9,14 @@ const experiences = [
     company: "Adomita Technologies PVT LTD",
     role: "Data Analyst",
     duration: "Present",
-    location: "OnSite",
+    location: "TamiNadu",
+    // color: "#ffff",
     color: "#5b8ef0",
     points: [
-      "Working on data analysis, dashboard reporting, business insights, and AI-driven analytics.",
-      "Handling structured and unstructured datasets at scale.",
-      "Building reports and optimizing business decision workflows.",
-      "Collaborating with development and business teams.",
+      "Working on data analysis, machine learning models, AI-driven analytics, and predictive systems.",
+      "Handling large-scale structured and unstructured datasets using Python, SQL, and modern data tools..",
+      "Developing and optimizing ML models for prediction, recommendation, and intelligent automation.",
+      "Improving business decision-making through analytics, forecasting, and AI-powered insights.",
     ],
   },
   {
@@ -73,7 +74,7 @@ function ExpCard({ exp, index }) {
               initial={{ opacity: 0, x: -10 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.2 + i * 0.08 }}
-              className="flex gap-3 text-muted text-sm leading-relaxed"
+              className="flex gap-3 text-white text-sm leading-relaxed"
             >
               <span className="text-accent mt-0.5 shrink-0">▸</span>
               {pt}
