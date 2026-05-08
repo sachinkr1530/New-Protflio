@@ -23,17 +23,18 @@ export default function About() {
         <div className="space-y-6">
           <p className="text-text text-lg leading-relaxed font-body">
             I am a passionate{" "}
-            <span className="text-accent font-semibold">Full Stack Developer</span>{" "}
-            and{" "}
-            <span className="text-accent font-semibold">Data Analyst</span>{" "}
-            currently pursuing{" "}
-            <span className="text-glow font-semibold">MCA in Generative AI</span>{" "}
-            from SRM Institute.
+            <span className="text-accent font-semibold">Full Stack Developer / Data Analyst, </span>{" "}
+             currently Working as a  {" "}
+            <span className="text-accent font-semibold">Developer- Data Analyst. at Admotia Pvt. Ltd. </span>{" "}
+              I have completed my {" "}
+            <span className="text-glow font-semibold">MCA specialization in Generative AI</span>{" "}
+            from SRM Institute of Science and Technology.
           </p>
           <p className="text-muted text-lg leading-relaxed font-body">
-            I specialize in React.js, Node.js, AI-powered applications, and modern
-            web technologies. I love building scalable applications with premium
-            UI/UX and integrating AI solutions into real-world systems.
+            I specialize in React.js, Node.js, Data Analytics, AI-powered applications,
+              and modern web technologies. I am passionate about building scalable 
+              applications with premium UI/UX, creating data-driven solutions, 
+              and integrating AI technologies into real-world systems.
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">
