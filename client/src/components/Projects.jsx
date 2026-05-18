@@ -6,13 +6,13 @@ import SectionWrapper, { SectionTitle } from "./SectionWrapper";
 
 const projects = [
   {
-    title: "CanvasResume",
+    title: "Intellihire_ATS",
     tagline: "AI-Powered Resume Builder Platform",
     description:
       "ATS-friendly AI-powered resume builder platform with personalized dashboard, LinkedIn job recommendations, and MCQ practice system.",
     tech: ["React.js", "Node.js", "MongoDB", "AI/ML"],
-    github: "https://github.com",
-    live: "#",
+    github: "https://github.com/sachinkr1530/INTELLIHIRE-ATS",
+    live: "https://intellihire-ats-one.vercel.app/auth",
     color: "#5b8ef0",
     gradient: "from-blue-900/40 to-purple-900/20",
     highlights: [
