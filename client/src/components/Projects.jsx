@@ -30,8 +30,8 @@ const projects = [
     description:
       "AI disease prediction platform with 95%+ accuracy, real-time prediction system, and dramatically reduced prediction latency.",
     tech: ["Python", "Streamlit", "Machine Learning", "Scikit-learn"],
-    github: "https://github.com",
-    live: "#",
+    github: "https://github.com/sachinkr1530/multiple-disease-prediction",
+    live: "https://multiple-disease-prediction-ai.streamlit.app/",
     color: "#7c5cfc",
     gradient: "from-purple-900/40 to-blue-900/20",
     highlights: [
